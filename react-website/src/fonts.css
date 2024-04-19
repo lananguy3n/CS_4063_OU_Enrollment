@@ -1,0 +1,76 @@
+/* src/fonts.css */
+@font-face {
+    font-family: 'oufonts';
+    src: url('./fonts/Arboria-Black.otf') format('otf'), 
+    url('./fonts/Arboria-Bold.otf') format('otf'),
+    url('./fonts/Arboria-Book.otf') format('otf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'oufonts';
+    src: url('./fonts/Arboria-BlackItalic.otf') format('otf'),
+    url('./fonts/Arboria-BookItalic.otf') format('otf');
+
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'oufonts';
+    src: url('./fonts/Arboria-BoldItalic.otf') format('otf');
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'oufonts'; 
+    src: url('./fonts/Arboria-Light.otf') format('otf');
+
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oufonts';
+    src: url('./fonts/Arboria-LightItalic.otf') format('otf');
+
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'oufonts';
+    src: url('./fonts/Arboria-Medium.otf') format('otf');
+
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oufonts';
+    src: url('./fonts/Arboria-MediumItalic.otf') format('otf');
+
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'oufonts';
+    src: url('./fonts/Arboria-Thin.otf') format('otf');
+
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oufonts';
+    src: url('./fonts/Arboria-ThinItalic.otf') format('otf');
+
+    font-weight: 100;
+    font-style: italic;
+}
+
