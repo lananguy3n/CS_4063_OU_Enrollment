@@ -11,19 +11,20 @@ import MySchedules from './pages/MySchedules';
 
 function App() {
   return (
-    <div className="flex bg">
      <Router>
-        <Sidebar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/classnav" element={<ClassNav />} />
-          <Route path="/registrationstatus" element={<RegistrationStatus />} />
-          <Route path="/plan" element={<Plan />} />
-          <Route path="/myschedules" element={<MySchedules />} />
-        </Routes>
+        <div className="flex">
+          <Sidebar />
+          <div className="flex-1 p-8">
+         <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/classnav" element={<ClassNav />} />
+            <Route path="/registrationstatus" element={<RegistrationStatus />} />
+            <Route path="/plan" element={<Plan />} />
+            <Route path="/myschedules" element={<MySchedules />} />
+          </Routes>
+        </div>
+      </div>
       </Router>
-       
-    </div>
   );
 }
 
