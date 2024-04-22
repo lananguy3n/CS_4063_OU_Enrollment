@@ -4,7 +4,7 @@ import { BsSliders } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 const Sidebar = () => {
     return (
-        <div className=" items-center justify-center w-64 h-screen bg-primary flex flex-col">
+        <div className=" items-center justify-center w-64 min-h-screen bg-primary flex flex-col">
             <div className='flex flex-row items-center justify-center p-4'>
                 <img src="logo_white.png" alt="Logo" className="w-16 h-16 px-1 py-1" />
                 <h1 className='text-white text-2xl px-0 py-2 font-bold'>ENROLL</h1>
