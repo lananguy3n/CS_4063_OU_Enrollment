@@ -8,7 +8,7 @@ import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import { CgProfile } from "react-icons/cg";
 
 import 'react-circular-progressbar/dist/styles.css';
-
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -31,7 +31,7 @@ const Home = () => {
                             <div className='text-xl text-textprimary font-semibold'>Enrollment Permitted</div>
                         </div>
                         <p className='text-textprimary p-4'> You have no holds preventing registration</p>
-                        <GoArrowRight className=' float-right text-3xl text-textprimary' />
+                        <Link to="/registrationstatus"><GoArrowRight className=' float-right text-3xl text-textprimary' /></Link>
 
                     </Card>
 
@@ -71,7 +71,7 @@ const Home = () => {
                     <Card title='Browse Catalogue' addSemester={true} semesterval="FALL 24">
                         <div className='flex flex-row items-center space-x-4 px-2'>
                             <p className=' text-textprimary font-thin text-lg py-2 '>View Available Courses for Fall 2024</p>
-                            <GoArrowRight className=' float-right text-3xl text-textprimary' />
+                            <Link to="/classnav"><GoArrowRight className=' float-right text-3xl text-textprimary' /></Link>
                         </div>
                         
                     </Card>
