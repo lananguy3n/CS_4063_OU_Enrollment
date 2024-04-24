@@ -24,7 +24,8 @@ const Home = () => {
             </div>
             <div className='flex flex-row'>
                 <div className='w-1/2 flex-col space-y-4'>
-                    <Card title='Registration Status'>
+                    {/*{title, addSemester=false, semesterval='Fall 2024',addlink=false, linkurl='nolink', linktext='linktext', children} */}
+                    <Card title='Registration Status' addSemester={true} semesterval="FALL 24" >
                         <div className='flex flex-row items-center space-x-4'>
                             <FaCheckCircle className='text-green-500 text-3xl' />
                             <div className='text-xl text-textprimary font-semibold'>Enrollment Permitted</div>
@@ -67,7 +68,7 @@ const Home = () => {
                         </div>
                     </Card>
                     
-                    <Card title='Browse Catalogue'>
+                    <Card title='Browse Catalogue' addSemester={true} semesterval="FALL 24">
                         <div className='flex flex-row items-center space-x-4 px-2'>
                             <p className=' text-textprimary font-thin text-lg py-2 '>View Available Courses for Fall 2024</p>
                             <GoArrowRight className=' float-right text-3xl text-textprimary' />
@@ -78,7 +79,8 @@ const Home = () => {
 
                 </div>
                 <div className='w-1/2 flex-col space-y-4'>
-                    <Card title='Spring 24 Schedule'>
+                    {/*{title, addSemester=false, semesterval='Fall 2024',addlink=false, linkurl='nolink', linktext='linktext', children} */}
+                    <Card title='Spring 24 Schedule'  addlink={true} linkurl='/plan' linktext='View Past Schedules'>
                         <img src='/imagesched.png' alt="schedule" className="w-96 h-64 px-1 py-1 text-center" />
                     </Card>
 
