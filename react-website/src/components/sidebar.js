@@ -11,11 +11,11 @@ const Sidebar = () => {
             </div>
             
             <ul className=" text-white w-10/12 justify-center">
-                <li className="font-medium px-4 py-3 hover:bg-tertiary cursor-pointer h-12" ><Link to="/">Home</Link></li>
-                <li className="font-medium px-4 py-3 hover:bg-tertiary cursor-pointer h-12 "><Link to="/registrationstatus">Registration Status</Link></li>
-                <li className="font-medium px-4 py-3 hover:bg-tertiary cursor-pointer h-12 "><Link to="/plan">Plan & Register</Link></li>
-                <li className="font-medium px-4 py-3 hover:bg-tertiary cursor-pointer h-12 "><Link to="/classnav">ClassNav</Link></li>
-                <li className="font-medium px-4 py-3 hover:bg-tertiary cursor-pointer h-12"><Link to="/myschedule">My Schedules</Link></li>
+                <Link to="/"><li className="font-medium px-4 py-3 hover:bg-tertiary cursor-pointer h-12" >Home</li></Link>
+                <Link to="/registrationstatus"><li className="font-medium px-4 py-3 hover:bg-tertiary cursor-pointer h-12 ">Registration Status</li></Link>
+                <Link to="/plan"><li className="font-medium px-4 py-3 hover:bg-tertiary cursor-pointer h-12 ">Plan & Register</li></Link>
+                <Link to="/classnav"><li className="font-medium px-4 py-3 hover:bg-tertiary cursor-pointer h-12 ">ClassNav</li></Link>
+                <Link to="/myschedule"><li className="font-medium px-4 py-3 hover:bg-tertiary cursor-pointer h-12">My Schedules</li></Link>
             </ul>
             <div className="mt-auto w-10/12"> 
                 <ul className="text-white">
