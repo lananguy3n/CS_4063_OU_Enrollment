@@ -12,7 +12,7 @@ import MySchedules from './pages/MySchedules';
 function App() {
   return (
      <Router>
-        <div className="flex">
+        <div className="flex" style={{ backgroundColor: '#F8F7F1' }}>
           <Sidebar />
           <div className="flex-1 p-8">
          <Routes>
