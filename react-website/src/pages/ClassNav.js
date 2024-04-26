@@ -28,7 +28,7 @@ const ClassNav = () => {
                     width="100%"
                     height="800vh"
                     allow="fullscreen"
-                    className="embedded-iframe" // Add a class name for styling
+                    className="embedded-iframe" 
                 ></iframe>
             </div>
         </div>
