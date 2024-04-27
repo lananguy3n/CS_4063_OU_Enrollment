@@ -12,6 +12,9 @@ npm audit fix --force
 ## Libraries
 Tailwind CSS, daisyUI, FontAwesome
 
+## Features
+This project is a redesign of the OU Enrollment system. There are five main pages that are available: the homepage, registration status, plan & register, ClassNav, and my schedules. 
+
 # Getting Started with Create React App
 
 
