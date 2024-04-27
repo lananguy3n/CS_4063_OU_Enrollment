@@ -13,7 +13,7 @@ const RegistrationStatus = () => {
     return (
         <div className='flex flex-col'>
             <div className='flex flex-row p-2 justify-between'>
-                <p className='text-4xl font-bold text-black-400 px-4'>Registration Status</p>
+                <p className='text-4xl font-semibold text-black-400 px-4'>Registration Status</p>
                 <div className='flex flex-row float-end space-x-8'>
                     <HiOutlineQuestionMarkCircle className='text-textprimary text-3xl' />
                     <FaBell className='text-textprimary text-3xl' />

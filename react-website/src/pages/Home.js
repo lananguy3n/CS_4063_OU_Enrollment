@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <div className='flex flex-col'>
             <div className='flex flex-row p-2 justify-between'>
-                <p className='text-4xl font-bold text-black-400 px-4'>Home</p>
+                <p className='text-4xl font-semibold text-black-400 px-4'>Home</p>
                 <div className='flex flex-row float-end space-x-8'>
                     <HiOutlineQuestionMarkCircle className='text-textprimary text-3xl' />
                     <FaBell className='text-textprimary text-3xl' />
@@ -103,7 +103,7 @@ const Home = () => {
                                 />
                             </div>
                             <div className='flex flex-col px-2'>
-                                <p className='text-textprimary text-3xl font-semibold'>Expected Graduation</p>
+                                <p className='text-textprimary text-3xl font-semisemibold'>Expected Graduation</p>
                                 <p className=' text-textprimary font-thin text-lg py-2 '>Spring 2024</p>
                                 <div className='space-y-1'>
                                     <p className=' text-textprimary font-thin text-lg '><a href='one.ou.edu' target='_blank' className='text-blue-500 w-1/2'>File for Graduation</a></p>
